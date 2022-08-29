@@ -32,7 +32,7 @@ background-color: rgb(255, 255, 255);
 
 .img-fondo{
      grid-area: header;
-     background-image: url(/IMG/inicio.jpg);
+     background-image: url(../IMG/inicio.jpg);
      background-size: cover;
       background-position: center ;
 }
@@ -88,7 +88,7 @@ nav a:hover{
 
 .inicio{
     grid-area: main;
-    background-image: url(/IMG/bacground.jpg);
+    background-image: url(../IMG/bacground.jpg);
 }
 
 .inicio h1{
@@ -123,7 +123,7 @@ grid-area: main;
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)
   )
-  ,url(/IMG/cafeteria.jpg);
+  ,url(../IMG/cafeteria.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -227,7 +227,7 @@ background-image:linear-gradient(
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)
   ) 
-,url(/IMG/sobre\ nosotros\ fondo.jpg);
+,url(../IMG/sobre\ nosotros\ fondo.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -308,7 +308,7 @@ font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     font-family: monospace;
     align-items: center;
-    background-image: url(/IMG/bacground.jpg);
+    background-image: url(../IMG/bacground.jpg);
     
     
 
