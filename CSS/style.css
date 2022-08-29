@@ -1,0 +1,376 @@
+html{
+    box-sizing: border-box;
+    font-size: 60.5%;
+    margin: auto;
+    scroll-behavior: smooth;
+    height: 0%;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+.grid-conteiner{
+    display: grid;
+    grid-template-areas: "header"
+    "main"
+    "footer";
+    
+}
+
+body{
+    margin: 0%;
+    height: auto;
+    padding: 0%;
+    
+    
+}
+
+.inicio{
+background-color: rgb(255, 255, 255);
+}
+
+.img-fondo{
+     grid-area: header;
+     background-image: url(/IMG/inicio.jpg);
+     background-size: cover;
+      background-position: center ;
+}
+
+img{
+    width: 100%;
+}
+.velo-negro{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.contenedor{
+    max-width: 150em;
+    margin: 0%;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+.logo-img{
+    max-width: 40rem;
+    margin: 3rem 0;
+}
+
+nav{
+    margin: rem 0 8rem 0;
+    background-color: rgba(126, 61, 7, 0.768);
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    position: sticky;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+    
+}
+
+.inicio{
+    grid-area: main;
+    background-image: url(/IMG/bacground.jpg);
+}
+
+.inicio h1{
+
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-align: center;
+    font-size: 50px ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: #484949;
+    
+
+    
+}
+
+
+
+.flyer{
+    width:  100% ;
+    margin: 0px;
+    padding: 50px;
+    
+    box-shadow:  10px 10px 5px  #361901;
+}
+
+#donde-encontrarnos{
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+grid-area: main;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  )
+  ,url(/IMG/cafeteria.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#donde-encontrarnos iframe {
+    padding: 10px;
+    box-shadow: 10px 10px 20px;
+    border-radius: 0px;
+    
+}
+
+
+
+.iframe iframe{
+    background-position: center;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.521);
+    border-radius: 0px;
+    margin: 25px;
+  
+}
+
+.iframe h1{
+    text-align: center;
+    font-size: 5rem ;
+    color: rgb(255, 255, 255);
+    text-shadow: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header-productos{
+    grid-area: header;
+}
+
+.nustros-productos{
+    font-family:Arial, Helvetica, sans-serif ;
+    color:  rgb(255, 255, 255);
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: #484949;
+}
+
+
+.productos{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+
+   
+}
+.producto{
+    background-color: rgba(95, 46, 6, 0.768);;
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow:10px 10px 5px #361901;
+}
+
+.producto-blanco{
+    background-color: white;
+    height: auto;
+    object-fit: cover;
+    padding: 1rem;
+    
+   
+}
+
+.producto-precio,
+.producto-nombre{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.producto-precio{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.producto-nombre{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: black;
+    padding: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contenedor{
+background-image:linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  ) 
+,url(/IMG/sobre\ nosotros\ fondo.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.nosotros{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 10rem;
+margin-bottom: 20rem; 
+margin: 10px;
+}
+
+.nosotros-texto{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nosotros-img{
+    background-color: rgb(148, 56, 3);
+    border-radius: 5%;
+    background-image: linear-gradient(
+        0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    );
+}
+
+.bloques{
+    
+    grid-template-columns: repeat(2fr);
+    gap: 20rem;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.bloques img{
+    width: auto;
+    margin-bottom: 2rem;
+    height: auto;
+    text-align: center;
+
+}
+.bloque-titulo{
+    margin:0;
+}
+
+.bloque{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5rem;
+   align-items: center;
+}
+.bloque-titulo{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    margin: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.registrate h1{
+color: white;
+font-size: 3rem;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.formulario{
+    
+    margin: 0%;
+    height: 700px ;
+    padding: 0%;
+    text-align: center;
+    font-family: monospace;
+    align-items: center;
+    background-image: url(/IMG/bacground.jpg);
+    
+    
+
+    
+}
+
+form{
+    background-color: rgb(107, 54, 3);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    padding: 85px;
+    margin: 0 auto;
+    width: 450px;
+    text-align: left;
+    box-shadow: 10px 10px 5px   #382103;
+    
+}
+
+form p{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 280px;
+}
+
+.buttonform{
+ box-shadow: 5px 8px 2px #361901 ;
+
+}
+
+.buttonform :hover{
+    color: #5a3607;
+}
+
+.field{
+    border: solid 1px rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 2px #361901;
+    
+
+    
+}
+
+.field:focus{
+    border-color: #ffffff;
+}
+
+.center-content{
+    text-align: center;
+    
+}
+.center-content:hover{
+    color: black;
+}
+
+.enlace-footer:hover{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
