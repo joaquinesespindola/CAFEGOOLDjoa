@@ -18,6 +18,11 @@ html{
     
 }
 
+.modal-fade{
+    color: black;
+
+}
+
 body{
     margin: 0%;
     height: auto;
