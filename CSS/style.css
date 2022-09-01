@@ -92,7 +92,12 @@ nav a:hover{
 
 .inicio{
     grid-area: main;
-    background-image: url(../IMG/bacground.jpg);
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      )
+      ,url(../IMG/bacground.jpg);
 }
 
 .inicio h1{
@@ -103,9 +108,7 @@ nav a:hover{
     font-size: 50px ;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: #484949;
-    
-
-    
+    padding: 20px;
 }
 
 
@@ -217,7 +220,7 @@ grid-area: main;
 .footer{
     grid-area: footer;
     background-color: black;
-    padding: 3.5rem;
+    padding: 3rem;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 2rem;
     color: white;
@@ -237,11 +240,13 @@ background-repeat: no-repeat;
 }
 
 .nosotros{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-gap: 10rem;
-margin-bottom: 20rem; 
-margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10rem;
+    margin-bottom: 20rem; 
+    margin: 10px;
+    padding: 0%;
+    
 }
 
 .nosotros-texto{
@@ -297,7 +302,13 @@ margin: 10px;
     text-decoration: underline;
 }
 
+.nuestro-cafe{
+    padding: 0px;
+    margin: 50px;
+}
+
 .registrate h1{
+    padding: 20px;
 color: white;
 font-size: 3rem;
 text-align: center;
@@ -321,7 +332,7 @@ font-family:Arial, Helvetica, sans-serif;
 
 form{
     background-color: rgb(107, 54, 3);
-    border-radius: 3px;
+    border-radius: 5px;
     color: rgb(255, 255, 255);
     font-size: 2em;
     padding: 85px;
