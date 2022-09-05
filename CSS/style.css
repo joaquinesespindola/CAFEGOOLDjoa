@@ -672,7 +672,7 @@ input, textarea{
 }
     
 
-@media (max-width: 412px){
+@media (max-width: 450px){
     nav{
         margin: rem 0 8rem 0;
         background-color: rgba(126, 61, 7, 0.768);
