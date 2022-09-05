@@ -672,3 +672,282 @@ input, textarea{
 }
     
 
+@media (max-width: 412px){
+    nav{
+        margin: rem 0 8rem 0;
+        background-color: rgba(126, 61, 7, 0.768);
+        padding: 3rem;
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        position: sticky;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    nav a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 2rem;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    nav a:hover{
+        color: black;
+        
+    }
+
+
+    .inicio h1{
+
+        color: rgb(255, 255, 255);
+        
+        text-align: center;
+        font-size: 25px ;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: #484949;
+        padding-top: 20px;
+    }
+   
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        position: sticky;
+    }
+    
+    .nustros-productos{
+      font-size: 20px;
+      flex-direction: column;
+    }
+
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        
+       
+       
+        
+        
+    }
+
+
+
+    .nosotros-img{
+        background-color: rgb(148, 56, 3);
+        border-radius: 5%;
+        background-image: linear-gradient(
+            0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        );
+        height: 280px;
+        width: 280px;
+    }
+
+    .nosotros-texto{
+     font-size: 20px;
+
+    }
+    .bloques{
+        
+        grid-template-columns: repeat(2fr);
+        gap: 20rem;
+        text-align: center;
+        align-items: center;
+        
+    }
+    
+    .bloques img{
+        width: auto;
+        margin-bottom: 2rem;
+        height: 100px;
+        text-align: center;
+    
+    }
+    .bloque-titulo{
+        margin:0;
+    }
+    
+    .bloque{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 5rem;
+       align-items: center;
+    }
+    .bloque-titulo{
+        color: rgb(255, 255, 255);
+        font-size: 4rem;
+        margin: 3rem;
+        text-transform: uppercase;
+        font-weight: 800;
+        text-decoration: underline;
+    }
+    
+    .nuestro-cafe{
+        padding: 0px;
+        margin: 50px;
+    }
+
+
+    .nustros-productos{
+        font-family:Arial, Helvetica, sans-serif ;
+        color:  rgb(255, 255, 255);
+        font-size: 2.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
+        
+        padding: 5rem;
+    }
+    
+    
+    .productos{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       
+      
+    
+       
+    }
+    .producto{
+        background-color: rgba(95, 46, 6, 0.768);;
+        margin: 5rem;
+        padding: 2rem;
+        box-shadow:10px 10px 5px #361901;
+
+    }
+    
+    .producto-blanco{
+        background-color: white;
+        height: auto;
+        object-fit: cover;
+        padding: 1rem;
+        
+       
+    }
+    
+    .producto-precio,
+    .producto-nombre{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .producto-precio{
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    .producto-nombre{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    
+    #donde-encontrarnos iframe {
+        padding: 10rem;
+        box-shadow: 10px 10px 20px;
+        border-radius: 0rem;
+        
+    }
+    
+    
+    
+    .iframe iframe{
+        display: flex;
+        background-position: center;
+        padding: 5rem;
+        box-shadow: 2rem 2rem 2rem 1rem rgba(255, 255, 255, 0.521);
+        border-radius: 0px;
+        margin: 5rem;
+      
+    }
+    
+    .iframe h1{
+        text-align: center;
+        font-size: 5rem ;
+        color: rgb(255, 255, 255);
+        text-shadow: #ffffff;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .registrate h1{
+        padding: 20px;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .formulario{
+        
+        margin: 0%;
+        height: 700px ;
+        padding: 0%;
+        text-align: center;
+        font-family: monospace;
+        align-items: center;
+        background-image: url(../IMG/bacground.jpg);
+        
+        
+    
+        
+    }
+    
+    form{
+        background-color: rgb(107, 54, 3);
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-size: 1.5em;
+        padding: 5.5rem;
+        margin: 0 auto;
+        width: 100%;
+        text-align: left;
+        box-shadow: 10px 10px 5px   #382103;
+        
+    }
+    
+    form p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    input, textarea{
+        border: 0;
+        outline: none;
+        width: 280px;
+    }
+    
+    .buttonform{
+     box-shadow: 5px 8px 2px #361901 ;
+    
+    }
+    
+    .buttonform :hover{
+        color: #5a3607;
+    }
+    
+    .field{
+        border: solid 1px rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 10px 2px #361901;
+        
+    
+        
+    }
+    
+    .field:focus{
+        border-color: #ffffff;
+    }
+
+
+}
+
