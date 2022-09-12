@@ -6,7 +6,10 @@ html {
   height: 0%;
 }
 
-*, *::before, *::after {
+* {
+  box-sizing: inherit;
+}
+*::before, *::after {
   box-sizing: inherit;
 }
 
@@ -82,7 +85,6 @@ nav a {
   color: white;
   text-transform: uppercase;
 }
-
 nav a:hover {
   color: black;
 }
@@ -91,7 +93,6 @@ nav a:hover {
   grid-area: main;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMG/bacground.jpg);
 }
-
 .inicio h1 {
   color: rgb(255, 255, 255);
   font-weight: 400;
@@ -117,7 +118,6 @@ nav a:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 #donde-encontrarnos iframe {
   padding: 10px;
   box-shadow: 10px 10px 20px;
@@ -131,7 +131,6 @@ nav a:hover {
   border-radius: 0px;
   margin: 25px;
 }
-
 .iframe h1 {
   text-align: center;
   font-size: 5rem;
@@ -174,8 +173,7 @@ nav a:hover {
   padding: 1rem;
 }
 
-.producto-precio,
-.producto-nombre {
+.producto-precio, .producto-nombre {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -237,7 +235,6 @@ nav a:hover {
   text-align: center;
   align-items: center;
 }
-
 .bloques img {
   width: auto;
   margin-bottom: 2rem;
@@ -301,7 +298,6 @@ form {
   text-align: left;
   box-shadow: 10px 10px 5px #382103;
 }
-
 form p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -315,7 +311,6 @@ input, textarea {
 .buttonform {
   box-shadow: 5px 8px 2px #361901;
 }
-
 .buttonform :hover {
   color: #5a3607;
 }
@@ -326,7 +321,6 @@ input, textarea {
   border-radius: 5px;
   box-shadow: 5px 10px 2px #361901;
 }
-
 .field:focus {
   border-color: #ffffff;
 }
@@ -334,7 +328,6 @@ input, textarea {
 .center-content {
   text-align: center;
 }
-
 .center-content:hover {
   color: black;
 }
@@ -464,8 +457,7 @@ input, textarea {
        object-fit: cover;
     padding: 1rem;
   }
-  .producto-precio,
-.producto-nombre {
+  .producto-precio, .producto-nombre {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -671,8 +663,7 @@ input, textarea {
        object-fit: cover;
     padding: 1rem;
   }
-  .producto-precio,
-.producto-nombre {
+  .producto-precio, .producto-nombre {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -878,8 +869,7 @@ input, textarea {
        object-fit: cover;
     padding: 1rem;
   }
-  .producto-precio,
-.producto-nombre {
+  .producto-precio, .producto-nombre {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -1085,8 +1075,7 @@ input, textarea {
        object-fit: cover;
     padding: 1rem;
   }
-  .producto-precio,
-.producto-nombre {
+  .producto-precio, .producto-nombre {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
