@@ -120,13 +120,15 @@ nav a:hover {
 }
 #donde-encontrarnos iframe {
   padding: 10px;
+  box-shadow: 10px 10px 20px;
   border-radius: 0px;
 }
 
 .iframe iframe {
   background-position: center;
   padding: 10px;
-  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.521);
+  border-radius: 0px;
   margin: 25px;
 }
 .iframe h1 {
@@ -471,21 +473,23 @@ input, textarea {
     font-weight: 800;
   }
   #donde-encontrarnos iframe {
-    padding: 10rem;
-    box-shadow: 10px 10px 20px;
+    height: auto;
+    width: auto;
+    padding: 5rem;
     border-radius: 0rem;
   }
   .iframe iframe {
     display: flex;
     background-position: center;
-    padding: 5rem;
-    box-shadow: 2rem 2rem 2rem 1rem rgba(255, 255, 255, 0.521);
-    border-radius: 0px;
-    margin: 5rem;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    border-radius: 1.5rem;
+    margin: 0px;
   }
   .iframe h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 2rem;
     color: rgb(255, 255, 255);
     text-shadow: #ffffff;
     font-family: "Times New Roman", Times, serif;
