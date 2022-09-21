@@ -475,23 +475,24 @@ input, textarea {
   #donde-encontrarnos iframe {
     height: auto;
     width: auto;
-    padding: 5rem;
+    padding: 2rem;
     border-radius: 0rem;
+    font-size: 2.5rem;
+    display: flex;
   }
   .iframe iframe {
-    display: flex;
     background-position: center;
     padding: 0px;
-    height: auto;
-    width: auto;
+    height: 300rem;
+    width: 250rem;
     border-radius: 1.5rem;
     margin: 0px;
+    align-items: flex-start;
   }
   .iframe h1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 0.5rem;
     color: rgb(255, 255, 255);
-    text-shadow: #ffffff;
     font-family: "Times New Roman", Times, serif;
   }
   .registrate h1 {
